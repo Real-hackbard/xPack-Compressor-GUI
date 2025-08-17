@@ -1,0 +1,23 @@
+
+XPack 0.98  (c) 2007 JoKo
+
+Usage: XPack [options] filename[.exe] (no wild cards - * and ?)
+  -r[src]               don't pack resource section
+  -i[con]               don't pack icons
+  -lzm[a]|lzs[s]        specify compression algorithm
+  -a[ddress]:<HexValue> set imagebase
+  -d[ebug]              don't delete debug section
+  -re[locs]             exe file -> don't delete relocations section
+                        dll file -> delete relocations section
+  -e[xports]            delete exports
+  -c[oncat]             don't merge sections
+  -m[zstub]             don't replace MZ-exe stub
+  -m[zstub]:<file>      specify new MZ-exe stub file
+  -f[ilealign]          don't change file alignment
+  -f[ilealign]:<5...16> specify file alignment in power of 2
+  -s[ection]:<name>     specify loader section name
+  -b[ackup]             don't create a backup file
+  -t[est]               don't test before processing
+  -p[ack]               no PE-exe file packing
+
+Operation OK !
