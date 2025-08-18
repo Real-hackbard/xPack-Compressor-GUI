@@ -1,5 +1,13 @@
 # xPack-Compressor-GUI:
 
+```ruby
+Compiler    : Delphi10 Seattle, 10.1 Berlin, 10.2 Tokyo, 10.3 Rio, 10.4 Sydney, 11 Alexandria, 12 Athens
+Components  : None
+Discription : Executable Compressor and Rebuilder
+Last Update : 08/2025
+License     : Freeware
+```
+
 XComp and XPack are compression tools for compressing 32-bit Windows executable files (usually with the '.exe' or '.dll' extension). This reduces the file size by an average of 50%. Ideally, the process should be completely transparent to both the compressed software and the user. So, everything remains the same. Try it yourself (it's a freeware product):
 
 * Copy the files ('*.exe' and '*.dll') in the archive to a directory of your choice.
