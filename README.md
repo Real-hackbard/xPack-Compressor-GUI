@@ -192,6 +192,8 @@ Download:
 * [XComp/XPack 0.97](http://www.soft-lab.de/JoKo/XComp097.zip) mit LZSS und LZRW Kompression - 109679 Byte (107 kByte)
 * [XComp/XPack 0.98](http://www.soft-lab.de/JoKo/XComp098.zip) mit LZMA and LZSS Kompression - 141033 Byte (137 kByte)
 
+If the link doesn't work, right mouse button "Save target as".
+
 </br>
 
 ### Archive content:
