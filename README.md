@@ -1,5 +1,7 @@
 # xPack-Compressor-GUI:
 
+</br>
+
 ```ruby
 Compiler    : Delphi10 Seattle, 10.1 Berlin, 10.2 Tokyo, 10.3 Rio, 10.4 Sydney, 11 Alexandria, 12 Athens
 Components  : None
@@ -8,15 +10,19 @@ Last Update : 08/2025
 License     : Freeware
 ```
 
+</br>
+
 XComp and XPack are compression tools for compressing 32-bit Windows executable files (usually with the '.exe' or '.dll' extension). This reduces the file size by an average of 50%. Ideally, the process should be completely transparent to both the compressed software and the user. So, everything remains the same. Try it yourself (it's a freeware product):
 
 * Copy the files ('*.exe' and '*.dll') in the archive to a directory of your choice.
 * To start the program, simply click on it in Explorer or use the console version.
 * It is possible to create a link in the 'SendTo' folder.
 
+</br>
 
 ![xPack Compressor GUI](https://github.com/user-attachments/assets/e48a0fe2-97e2-471d-b251-4c17a37732f8)
 
+</br>
 
 ### Packing an executable file:
 Select the file you want to compress and confirm with OK - the compression process begins.
@@ -54,6 +60,8 @@ If you do this, you can safely package PE32 files with multiple code sections. T
       - possibility to use 'in place' compression.
 ```
 
+</br>
+
 ### Rebuilding an executable file:
 To remove or replace only certain information from a file without compressing the contents, you must set the Mode radio button in the Special section (at the very bottom of the dialog box) to Rebuild.
 
@@ -61,6 +69,7 @@ To remove or replace only certain information from a file without compressing th
 * Packers without 'in place' packing:  XPack, UPack, MEW11, FSG
 * It looked paradox - smaller filesize but greater imagesize...
 
+</br>
 
 ''' Filesize:
   (ERR) - not a usable imagefile (can't run or crashes)
@@ -89,6 +98,8 @@ To remove or replace only certain information from a file without compressing th
   XComp 0.97 (LZRW) |   6 052 216 |       1 526 498 |       609 070 |  210 140 |     55 004 |       22 740 |          4 201 263 |  56 789
   XPack 0.97 (LZRW) |   6 051 677 |       1 525 871 |       609 193 |  209 767 |     54 593 |       22 226 |          4 200 179 |  55 997
 ```
+
+</br>
 
 ### Parameters :
     XComp/XPack: exe -e, dll no params
@@ -119,6 +130,8 @@ To remove or replace only certain information from a file without compressing th
      - Static TLS with callbacks is not supported
 ```
 
+</br>
+
 ### Change image base:
 * ype the new imagebase into the text field provided.
 * Use hexadecimal notation.
@@ -128,6 +141,7 @@ To remove or replace only certain information from a file without compressing th
 Note that under Win9X/ME, the imagebase must be greater than or equal to 4 MB to create a PE32 executable file!
 For technical (understandable) reasons, changing the base address is only possible if your file contains relocation information.
 
+</br>
 
 ### Imagesize:
 ```
@@ -136,6 +150,8 @@ For technical (understandable) reasons, changing the base address is only possib
   this data at the end of the newly created packed file. This exceeds the filesize
   in memory (Imagesize).
 ```
+
+</br>
 
 ```
                 | <-------------------- LZMA Compression --------------------> | <-------------------- LZSS Compression --------------------> |
@@ -150,7 +166,7 @@ For technical (understandable) reasons, changing the base address is only possib
 
 ```
 
-
+</br>
 
 ### Notes:
 It can happen that XComp/XPack automatically changes a file's imagebase:
@@ -176,6 +192,8 @@ Download:
 * [XComp/XPack 0.97](http://www.soft-lab.de/JoKo/XComp097.zip) mit LZSS und LZRW Kompression - 109679 Byte (107 kByte)
 * [XComp/XPack 0.98](http://www.soft-lab.de/JoKo/XComp098.zip) mit LZMA and LZSS Kompression - 141033 Byte (137 kByte)
 
+</br>
+
 ### Archive content:
 ```
   The eXe Compressor XComp:
@@ -189,6 +207,8 @@ Download:
       - Xlzma.dll - LZMA compression
       - Xlzss.dll - LZSS compression
 ```
+
+</br>
 
   ### Summary:
   
