@@ -8,7 +8,7 @@ currently being supported with security updates.
 | Version | Supported          |
 | ------- | ------------------ |
 | 1.0.x   | :white_check_mark: |
-| 1.1.x   | :white_check_mark: Wait compress function; Process Priority |
+| 1.1.x   | :white_check_mark: Wait compress function; Process Priority; precise size detection |
 
 ## Reporting a Vulnerability
 
