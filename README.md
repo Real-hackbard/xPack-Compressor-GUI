@@ -21,7 +21,7 @@ XComp and XPack are compression tools for compressing 32-bit Windows executable 
 
 </br>
 
-![xPack Compressor GUI](https://github.com/user-attachments/assets/e48a0fe2-97e2-471d-b251-4c17a37732f8)
+<img src="https://github.com/user-attachments/assets/7987d98f-b559-4da1-9da3-8a3529235d54" />
 
 </br>
 
