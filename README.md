@@ -170,12 +170,8 @@ For technical (understandable) reasons, changing the base address is only possib
 </br>
 
 ### Imagesize:
-```
-  XComp and XPack are nearly identical, but XComp uses a 'in place' packing.
-  The compressed data is placed at there original location. XPack concatenates
-  this data at the end of the newly created packed file. This exceeds the filesize
-  in memory (Imagesize).
-```
+XComp and XPack are nearly identical, but XComp uses a 'in place' packing. The compressed data is placed at there original location. XPack concatenates this data at the end of the newly created packed file. This exceeds the filesize in memory (Imagesize).
+
 
 </br>
 
