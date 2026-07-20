@@ -40,6 +40,10 @@ Be careful when compressing DLLs - it's best to use XComp. XPack consumes a cons
 
 If you do this, you can safely package PE32 files with multiple code sections. This was certainly possible under older versions of NT due to the transition from Win16 to Win32. Or try old Borland C++ 4.00 files.
 
+</br>
+
+### :wrench: Functions:
+
 ```
   - Rebuilder functionality
       - strip debug data
