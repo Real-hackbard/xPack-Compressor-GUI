@@ -222,6 +222,8 @@ The reasons for this program development are aesthetic. Years of viewing executa
 
 ```If the link doesn't work, right mouse button "Save target as".```
 
+[LZMA/LZMA2](https://www.7-zip.org/sdk.html) are default and general compression methods of 7z format in the 7-Zip program provides a high compression ratio and fast decompression, so it is very suitable for embedded applications. For example, it can be used for ROM (firmware) compressing.
+
 </br>
 
 ### Archive content:
