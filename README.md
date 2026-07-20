@@ -102,7 +102,6 @@ To remove or replace only certain information from a file without compressing th
   (ERR) - not a usable imagefile (can't run or crashes)
   
 ```bin
-
                     | WINWORD 10  |  MovieMaker 2.1 | OllyDebug 1.1 | MASM 7.0 | Calculator |    Touch 4.0 | Acrobat Reader 7.0 | Resource Compiler 5.1
   Filename          | WINWORD.EXE |  moviemk.exe    | OLLYDBG.EXE   | ML.EXE   | calc.exe   |    touch.exe | AcroRd32.dll       | rcdll.dll
   -----------------------------------------------------------------------------------------------------------------------------------------------------
