@@ -98,7 +98,7 @@ To remove or replace only certain information from a file without compressing th
 
 </br>
 
-''' Filesize:
+### Filesize:  
   (ERR) - not a usable imagefile (can't run or crashes)
   
 ```xml
