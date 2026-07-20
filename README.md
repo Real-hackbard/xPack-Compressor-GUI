@@ -65,6 +65,30 @@ If you do this, you can safely package PE32 files with multiple code sections. T
 
 </br>
 
+### :wrench: Parameters:
+```
+  -r[src]               don't pack resource section
+  -i[con]               don't pack icons
+  -lzr[w]|lzs[s]        specify compression algorithm
+  -l[evel]:<1...9>      specify compression level, std: 5
+  -a[ddress]:<HexValue> set imagebase
+  -d[ebug]              don't delete debug section
+  -re[locs]             exe file -> don't delete relocations section
+                        dll file -> delete relocations section
+  -e[xports]            delete exports
+  -c[oncat]             don't merge sections
+  -m[zstub]             don't replace MZ-exe stub
+  -m[zstub]:<file>      specify new MZ-exe stub file
+  -f[ilealign]          don't change file alignment
+  -f[ilealign]:<5...16> specify file alignment in power of 2
+  -s[ection]:<name>     specify loader section name
+  -b[ackup]             don't create a backup file
+  -t[est]               don't test before processing
+  -p[ack]               no PE-exe file packing
+```
+
+</br>
+
 ### Rebuilding an executable file:
 To remove or replace only certain information from a file without compressing the contents, you must set the Mode radio button in the Special section (at the very bottom of the dialog box) to Rebuild.
 
