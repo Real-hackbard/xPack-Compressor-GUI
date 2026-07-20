@@ -159,7 +159,7 @@ To remove or replace only certain information from a file without compressing th
 </br>
 
 ### Change image base:
-* ype the new imagebase into the text field provided.
+* Type the new imagebase into the text field provided.
 * Use hexadecimal notation.
 * Deselect all other rebuild options.
 * Click the OK button.
