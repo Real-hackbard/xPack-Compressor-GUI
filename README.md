@@ -25,7 +25,7 @@ XComp and XPack are compression tools for compressing 32-bit Windows executable 
 
 </br>
 
-### Packing an executable file:
+# Packing an executable file:
 Select the file you want to compress and confirm with OK - the compression process begins.
 
 First, the resources are reorganized - due to my poor code, this may be a slow process. The progress is visualized by a progress bar.
