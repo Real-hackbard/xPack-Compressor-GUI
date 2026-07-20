@@ -179,7 +179,7 @@ For technical (understandable) reasons, changing the base address is only possib
 
 </br>
 
-```
+```asm
                 | <-------------------- LZMA Compression --------------------> | <-------------------- LZSS Compression --------------------> |
                 | imagesize | XComp 0.98 | XPack 0.98 | UPack 0.39 |  PEC 2.78 | MEW11 1.2 | XComp 0.98 | XPack 0.98 |   UPX 2.0 | PETITE 2.3 |   FSG 2.0 |
   ---------------------------------------------------------------------------------------------------------------------------------------------------------
