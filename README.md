@@ -129,7 +129,7 @@ To remove or replace only certain information from a file without compressing th
 
 
 
-### Comparison :
+### App Comparison :
     XComp/XPack: exe -e, dll no params
     UPack:       exe -set -srt, dll no params
     PECompact:   exe /Cl:9 /Dt:Small /Asd:No /Sf:Yes /Ri:No /Ch:pec2codec_lzma2.dll /Lh:pec2ldr_reduced.dll
